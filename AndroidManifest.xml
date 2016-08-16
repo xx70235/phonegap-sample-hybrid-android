@@ -45,11 +45,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MyListActivity"
-            android:label="MyListActivity">
-        </activity>
+        <!--<activity-->
+            <!--android:name=".MainActivity"-->
+            <!--android:label="MainActivity">-->
+        <!--</activity>-->
     </application>
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
